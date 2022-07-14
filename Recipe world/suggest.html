@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <img src="./images/logo.png" alt="recipe world logo" />
+      <ul class="nav">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="recipe.html">Recipes</a></li>
+        <li><a href="suggest.html">Suggest</a></li>
+      </ul>
+    </div>
+    <div class="main-content">
+      <h2>Suggest a recipe</h2>
+      <form>
+        <label for="recipe-name">Recipe Name</label>
+        <input type="text" id="recipe-name" />
+
+        <label for="ingredients">Ingredients</label>
+        <textarea id="ingredients"></textarea>
+
+        <label for="name">Your name</label>
+        <input type="text" id="name" />
+
+        <label for="email">Your email</label>
+        <input type="text" id="email" />
+
+        <label for="newsletter">Get Newsletter?</label>
+        <input type="checkbox" id="newsletter" />
+
+        <input type="submit" value="Submit recipe" />
+      </form>
+    </div>
+  </body>
+</html>
